@@ -1,0 +1,95 @@
+.calendar {
+    margin: 0 auto;
+    max-width: 650px;
+    width: 300px;
+    width: 100%;
+}
+
+.calendar .tabl{
+    margin: 0 auto;
+}
+
+.tabl{
+    display: block;
+    width: 280px;
+    -webkit-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border-radius: 2px;
+}
+
+.tabl a {
+    text-decoration: none;
+}
+
+.tabl caption {
+    display: block;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.tabl caption .head{
+    color: #c5c5c5;
+    font-family: Helvetica;
+}
+
+.tabl caption i {
+    display: block;
+    line-height: 48px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #c5c5c5;
+}
+
+.tabl caption i:hover {
+    color: gray;
+}
+
+.tabl caption .prev {
+    float: left;
+}
+
+.tabl caption .next {
+    float: right;
+}
+
+.tabl th, .tabl td{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    font-family: Helvetica;
+    margin: 15px;
+    padding: 5px;
+}
+
+.tabl td a {
+    color: black;
+    padding: 5px;
+}
+
+td.active {
+    background-color: #41BCE1;
+    border-radius: 5px;
+}
+
+
+td.active a {
+    color: #fff;
+}
+
+
+.tabl .day{
+    color: red;
+    text-transform: uppercase; 
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+.tabl td.none a{
+    color: #c5c5c5;
+}
+
+caption{
+    display: block;
+}
